@@ -1,0 +1,11 @@
+\renewbibmacro*{index:name}[5]{%
+  \usebibmacro{index:entry}{#1}
+    {\iffieldundef{usera}{}{\thefield{usera}\actualoperator}\mkbibindexname{#2}{#3}{#4}{#5}}}
+
+% \newcommand{\DRG}[2]{\citet[#2]{DRG#1}}
+
+\newcommand{\DRG}[2]{DRG#1: #2\nocite{DRG#1}} 
+
+
+\newcommand{\pmipa}[2]{\parbox{2cm}{#1}\parbox{4cm}{#2}\\}
+\newcommand{\abbr}[2]{\parbox{1.5cm}{\textsc{#1}}\parbox{4cm}{#2}}
