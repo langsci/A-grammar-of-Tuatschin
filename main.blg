@@ -1,0 +1,31 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[66] biber-MSWIN64:322> INFO - === 
+[84] Biber.pm:415> INFO - Reading 'main.bcf'
+[227] Biber.pm:943> INFO - Found 28 citekeys in bib section 0
+[244] Biber.pm:4256> INFO - Processing section 0
+[244] Utils.pm:75> INFO - Globbing data source 'localbibliography.bib'
+[319] Utils.pm:91> INFO - Globbed data source 'localbibliography.bib' to localbibliography.bib
+[334] Biber.pm:4455> INFO - Looking for bibtex format file 'localbibliography.bib' for section 0
+[337] bibtex.pm:1653> INFO - LaTeX decoding ...
+[376] bibtex.pm:1471> INFO - Found BibTeX data source 'localbibliography.bib'
+[420] Utils.pm:304> WARN - year field '1939-1946' in entry 'DRG1' is not an integer - this will probably not sort properly.
+[424] Utils.pm:304> WARN - year field '1958-1963' in entry 'DRG3' is not an integer - this will probably not sort properly.
+[424] Utils.pm:304> WARN - year field '1973-1978' in entry 'DRG6' is not an integer - this will probably not sort properly.
+[428] Utils.pm:304> WARN - year field '1968-1972' in entry 'DRG5' is not an integer - this will probably not sort properly.
+[428] Utils.pm:304> WARN - year field '1947-1957' in entry 'DRG2' is not an integer - this will probably not sort properly.
+[430] Utils.pm:304> WARN - year field '1964-1967' in entry 'DRG4' is not an integer - this will probably not sort properly.
+[436] Utils.pm:304> WARN - year field '1998-2000' in entry 'DRG10' is not an integer - this will probably not sort properly.
+[439] Utils.pm:304> WARN - year field '1993-1997' in entry 'DRG9' is not an integer - this will probably not sort properly.
+[440] Utils.pm:304> WARN - BibTeX subsystem: C:\Users\philm\AppData\Local\Temp\biber_tmp_sFhr\localbibliography.bib_14964.utf8, line 272, warning: 1 characters of junk seen at toplevel
+[441] Utils.pm:304> WARN - I didn't find a database entry for 'Maurer2017' (section 0)
+[441] Utils.pm:304> WARN - I didn't find a database entry for 'Schorta1926' (section 0)
+[441] Utils.pm:304> WARN - I didn't find a database entry for 'Ebneter1994' (section 0)
+[441] Utils.pm:304> WARN - I didn't find a database entry for 'DRG' (section 0)
+[471] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[471] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[471] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[471] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[489] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[496] bbl.pm:755> INFO - Output to main.bbl
+[496] Biber.pm:128> INFO - WARNINGS: 13

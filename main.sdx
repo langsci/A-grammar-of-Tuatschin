@@ -1,0 +1,2 @@
+\indexentry {some term|hyperindexformat{\see {some other term}}}{470}
+\indexentry {some term with pages@\igobble |hyperindexformat{\langsciseealso {some other term also of interest}}}{470}
